@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="">
   <head>
@@ -8,27 +9,27 @@
     <title>Formulario</title>
   </head>
   <body>
-    <div name="avaliacao">
-        <h1>Avaliação do ensino</h1>
-        <label for="interesse">Como você avalia seu interesse por Sistemas de Informação?</label><br>
-        <select id="selecInte" name="selecInte">
+    <div id="avalicao" class="avaliacao">
+        <h1 id="titulo" class="titulo">Avaliação do ensino</h1>
+        <label for="interesse" class="tamanhoFonte">Como você avalia seu interesse por Sistemas de Informação?</label><br>
+        <select id="selecInte" name="selecInte background" class="background appearance-select">
             <option value="muitoNegativo">Muito ruim</option>
             <option value="negativo">Ruim</option>
-            <option value="neutro">Neutro</option>
+            <option value="neutro" selected>Neutro</option>
             <option value="positivo">Positivo</option>
             <option value="muitoPositivo">Muito positivo</option>
         </select><br>
-        <label for="qualidade">Como você avalia a qualidade de ensino?</label><br>
-        <select id="selecQuali" name="selecQuali">
+        <label for="qualidade" class="tamanhoFonte">Como você avalia a qualidade de ensino?</label><br>
+        <select id="selecQuali" name="selecQuali background" class="selecQuali background appearance-select">
             <option value="muitoNegativo">Muito ruim</option>
             <option value="negativo">Ruim</option>
-            <option value="neutro">Neutro</option>
+            <option value="neutro" selected>Neutro</option>
             <option value="positivo">Positivo</option>
             <option value="muitoPositivo">Muito positivo</option>
         </select><br>
-        <label for="exp">Conte um pouco mais sobre a experiência do ensino:</label><br>
-        <input type="text" id="relatoExp" name="relatoExp"><br>
-        <label for="anonimo">Esta avaliação é totalmente anonima.</label>
+        <label for="exp" class="tamanhoFonte">Conte um pouco mais sobre a experiência do ensino:</label><br>
+        <input type="input" id="relatoExp" class="relatoExp background"><br>
+        <label for="anonimo" class="anonimo">Esta avaliação é totalmente anonima.</label>
     </div>
   </body>
 </html>
